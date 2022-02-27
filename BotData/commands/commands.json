@@ -1,0 +1,707 @@
+{
+  "command": [
+    {
+      "name": "help",
+      "actions": [
+        {
+          "name": "help menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "How?",
+              "value": "To run the command simply use the prefix followed by the name of the game. \n**Case sensitive** **No spaces**",
+              "inline": "true"
+            },
+            {
+              "name": "Prefix",
+              "value": "``!`` ",
+              "inline": "false"
+            },
+            {
+              "name": "Example",
+              "value": "``!AnimeFighters``\n``!Kat``",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Help Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Cloud Scripts allows you to find scripts for game by running commands",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "AnimeFighters",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Anime Fighters Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: PolarHub",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/944674700896927754/947027253026488350/Anime_Fighters_Simulator_AUTO_FARM_GUI_JULY_2021_NEW_6.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Anime Fighters Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Anime Fighters GUI\n```_G.key = \"POLAR_IS_THE_BEST\";loadstring(game:HttpGet(\"https://polarhub.xyz/PolarFreeScript.lua\"))()\n```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "KAT",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: CriShoux",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/944674700896927754/947037563401682954/OwlHub.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "KAT! ",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "KAT GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt\"))();```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "Kat",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: CriShoux",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/944674700896927754/947037563401682954/OwlHub.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "KAT! ",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "KAT GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt\"))();```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "kat",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: CriShoux",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/944674700896927754/947037563401682954/OwlHub.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "KAT! ",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "KAT GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt\"))();```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "KAT!",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: CriShoux",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/944674700896927754/947037563401682954/OwlHub.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "KAT! ",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "KAT GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt\"))();```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "animefighters",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: PolarHub",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/944674700896927754/947027253026488350/Anime_Fighters_Simulator_AUTO_FARM_GUI_JULY_2021_NEW_6.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Anime Fighters Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Anime Fighters GUI\n```_G.key = \"POLAR_IS_THE_BEST\";loadstring(game:HttpGet(\"https://polarhub.xyz/PolarFreeScript.lua\"))()\n```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "CounterBlox",
+      "actions": [
+        {
+          "name": "CounterBlox Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Made by: Danix & Rit",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/947041964879138817/947046589032169482/CounterBloxLoaderV3.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "CounterBlox Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Counter Blox LoaderV3 GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua\", true))()```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "counterblox",
+      "actions": [
+        {
+          "name": "CounterBlox Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Made by: Danix & Rit",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/947041964879138817/947046589032169482/CounterBloxLoaderV3.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "CounterBlox Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Counter Blox LoaderV3 GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua\", true))()```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "BeeSwarmSimulator",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: w3uz",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Anime Fighters Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Anime Fighters GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/not-weuz/Lua/main/kocmoc.lua\"))()\n```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "BeeSwarmSim",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: w3uz",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Anime Fighters Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Anime Fighters GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/not-weuz/Lua/main/kocmoc.lua\"))()\n```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "beeswarmsimulator",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: w3uz",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Anime Fighters Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Anime Fighters GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/not-weuz/Lua/main/kocmoc.lua\"))()\n```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "beeswarmsim",
+      "actions": [
+        {
+          "name": "Anime Fighters Menu_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Script by: w3uz",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "Anime Fighters Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Anime Fighters GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/not-weuz/Lua/main/kocmoc.lua\"))()\n```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "cb",
+      "actions": [
+        {
+          "name": "CounterBlox Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Made by: Danix & Rit",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/947041964879138817/947046589032169482/CounterBloxLoaderV3.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "CounterBlox Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Counter Blox LoaderV3 GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua\", true))()```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "CB",
+      "actions": [
+        {
+          "name": "CounterBlox Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Made by: Danix & Rit",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/947041964879138817/947046589032169482/CounterBloxLoaderV3.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "CounterBlox Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Counter Blox LoaderV3 GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua\", true))()```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "Cb",
+      "actions": [
+        {
+          "name": "CounterBlox Menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Credits",
+              "value": "Made by: Danix & Rit",
+              "inline": "true"
+            }
+          ],
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Download",
+                  "customid": "",
+                  "style": "LINK",
+                  "emoji": "",
+                  "URL": "https://cdn.discordapp.com/attachments/947041964879138817/947046589032169482/CounterBloxLoaderV3.txt",
+                  "ephemeral": false
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "5D6AC0",
+          "title": "CounterBlox Menu",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Counter Blox LoaderV3 GUI\n```loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua\", true))()```",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "Activity",
+      "actions": [
+        {
+          "name": "Set Activity",
+          "category": "Bot Action",
+          "type": "Set Bot Activity",
+          "messageActionRows": [],
+          "activityname": "V3rmillion ",
+          "activitytype": "WATCHING",
+          "streamurl": ""
+        }
+      ]
+    },
+    {
+      "name": "Status",
+      "actions": [
+        {
+          "name": "Set Status",
+          "category": "Bot Action",
+          "type": "Set Bot Status",
+          "messageActionRows": [],
+          "presencestatus": "online"
+        }
+      ]
+    }
+  ]
+}
